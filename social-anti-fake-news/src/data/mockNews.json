@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "Aliens Landed in Bangkok",
+    "shortDetail": "A mysterious light was seen over the Grand Palace.",
+    "fullDetail": "Multiple witnesses reported seeing a glowing object descend rapidly. Authorities denied extraterrestrial activity.",
+    "reporter": "John Doe",
+    "dateTime": "2025-08-20T14:30:00",
+    "status": "fake",
+    "image": "/src/assets/image1.jpg",
+    "votes": { "fake": 12, "notFake": 3 },
+    "comments": [
+      { "user": "Jane", "text": "Looks photoshopped!", "imageUrl": "", "vote": "fake" },
+      { "user": "Somchai", "text": "I was nearby, nothing happened.", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Bangkok Floods Reach New Record",
+    "shortDetail": "The Chao Phraya River has overflowed.",
+    "fullDetail": "Officials confirmed severe flooding in Bangkok suburbs. Thousands evacuated as water levels rise.",
+    "reporter": "Somchai Prasert",
+    "dateTime": "2025-08-19T10:00:00",
+    "status": "notFake",
+    "image": "/src/assets/image2.jpg",
+    "votes": { "fake": 2, "notFake": 15 },
+    "comments": [
+      { "user": "Nok", "text": "My house was flooded yesterday.", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Elon Musk Buys Thai Island",
+    "shortDetail": "Rumors spread that Musk acquired a private island in Phuket.",
+    "fullDetail": "Social media users claimed Elon Musk is planning a rocket base in Thailand. No evidence provided.",
+    "reporter": "Lisa Chan",
+    "dateTime": "2025-08-18T18:45:00",
+    "status": "fake",
+    "image": "/src/assets/image3.jpg",
+    "votes": { "fake": 20, "notFake": 1 },
+    "comments": [
+      { "user": "Mark", "text": "Definitely fake news 😂", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Thailand Wins World Cup 2026 Bid",
+    "shortDetail": "FIFA allegedly awarded the 2026 World Cup to Thailand.",
+    "fullDetail": "The claim circulated widely online, but FIFA confirmed it remains in North America.",
+    "reporter": "Michael Lee",
+    "dateTime": "2025-08-17T12:20:00",
+    "status": "fake",
+    "image": "/src/assets/image4.jpg",
+    "votes": { "fake": 14, "notFake": 0 },
+    "comments": [
+      { "user": "David", "text": "Would have been amazing if true!", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "New Train Line Opens in Bangkok",
+    "shortDetail": "The Pink Line officially starts service.",
+    "fullDetail": "Transport ministry confirmed Bangkok’s Pink Line is now operational, easing commuter traffic.",
+    "reporter": "Napat Wong",
+    "dateTime": "2025-08-16T09:00:00",
+    "status": "notFake",
+    "image": "/src/assets/image5.jpg",
+    "votes": { "fake": 0, "notFake": 22 },
+    "comments": [
+      { "user": "Anna", "text": "Finally! My commute is easier now.", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Shark Spotted in Chao Phraya River",
+    "shortDetail": "Viral video shows a shark fin in Bangkok waters.",
+    "fullDetail": "Marine experts confirmed the footage was digitally altered. Sharks cannot survive in the river.",
+    "reporter": "Aree Phan",
+    "dateTime": "2025-08-15T14:10:00",
+    "status": "fake",
+    "image": "/src/assets/image6.jpg",
+    "votes": { "fake": 19, "notFake": 2 },
+    "comments": [
+      { "user": "Ming", "text": "LOL, this is so fake.", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Thailand Introduces Free Healthcare for All",
+    "shortDetail": "Government announced expanded healthcare program.",
+    "fullDetail": "Prime Minister confirmed a universal healthcare package starting next year.",
+    "reporter": "David Kim",
+    "dateTime": "2025-08-14T08:30:00",
+    "status": "notFake",
+    "image": "/src/assets/image7.jpg",
+    "votes": { "fake": 3, "notFake": 18 },
+    "comments": [
+      { "user": "Lalisa", "text": "This is great news for everyone!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Bangkok Skytrain Extends to Pattaya",
+    "shortDetail": "Social media claims BTS line will reach Pattaya.",
+    "fullDetail": "Officials denied the viral post. No official project currently exists.",
+    "reporter": "Siriwan Thong",
+    "dateTime": "2025-08-13T19:15:00",
+    "status": "fake",
+    "image": "/src/assets/image8.jpg",
+    "votes": { "fake": 10, "notFake": 1 },
+    "comments": []
+  },
+  {
+    "id": 9,
+    "title": "First Thai Astronaut to Launch in 2026",
+    "shortDetail": "Thailand to send astronaut with SpaceX mission.",
+    "fullDetail": "Confirmed partnership with SpaceX allows Thailand to train and send its first astronaut in 2026.",
+    "reporter": "Anan Suwan",
+    "dateTime": "2025-08-12T15:50:00",
+    "status": "notFake",
+    "image": "/src/assets/image9.jpg",
+    "votes": { "fake": 1, "notFake": 12 },
+    "comments": [
+      { "user": "Aom", "text": "So proud of our country!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "McDonald's Launches Durian Burger",
+    "shortDetail": "Viral photo shows McDonald's Thailand selling durian burgers.",
+    "fullDetail": "The company denied the viral menu item. It was a photoshopped advertisement.",
+    "reporter": "Chris Tan",
+    "dateTime": "2025-08-11T11:25:00",
+    "status": "fake",
+    "image": "/src/assets/image10.jpg",
+    "votes": { "fake": 17, "notFake": 0 },
+    "comments": [
+      { "user": "Ben", "text": "I’d actually try this 😂", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Thai Baht Hits Record High",
+    "shortDetail": "Currency strengthens against US dollar.",
+    "fullDetail": "Economists confirm Thai Baht reached its strongest value in a decade this week.",
+    "reporter": "Emily Clark",
+    "dateTime": "2025-08-10T09:10:00",
+    "status": "notFake",
+    "image": "/src/assets/image11.jpg",
+    "votes": { "fake": 2, "notFake": 14 },
+    "comments": [
+      { "user": "Ploy", "text": "Finally some good news for the economy!", "imageUrl": "", "vote": "notFake" },
+      { "user": "", "text": "I hope it stays this way.", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Dinosaurs Found in Chiang Mai",
+    "shortDetail": "Dig site revealed living dinosaurs underground.",
+    "fullDetail": "Viral claim suggested dinosaurs were discovered alive. Paleontologists dismissed it as a hoax.",
+    "reporter": "Mark Evans",
+    "dateTime": "2025-08-09T16:40:00",
+    "status": "fake",
+    "image": "/src/assets/image12.jpg",
+    "votes": { "fake": 25, "notFake": 0 },
+    "comments": [
+      { "user": "Tony", "text": "This has to be fake 😂", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Chiang Mai Declared Smart City",
+    "shortDetail": "Government invests in smart city tech.",
+    "fullDetail": "Chiang Mai officially recognized as a smart city with IoT and AI systems.",
+    "reporter": "Natasha Li",
+    "dateTime": "2025-08-08T13:55:00",
+    "status": "notFake",
+    "image": "/src/assets/image13.jpg",
+    "votes": { "fake": 0, "notFake": 11 },
+    "comments": [
+      { "user": "Kwan", "text": "Amazing progress!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Giant Snake Found in Bangkok Mall",
+    "shortDetail": "Photos show a python in a shopping mall.",
+    "fullDetail": "Authorities confirmed the snake was real but safely captured by rescue teams.",
+    "reporter": "Kittisak Rung",
+    "dateTime": "2025-08-07T17:20:00",
+    "status": "notFake",
+    "image": "/src/assets/image14.jpg",
+    "votes": { "fake": 1, "notFake": 16 },
+    "comments": [
+      { "user": "", "text": "Wow, saw it on news!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Thailand Discovers Oil Reserves",
+    "shortDetail": "Rumors claim massive oil fields found in Isan.",
+    "fullDetail": "Energy ministry denied the reports. No evidence of new oil reserves.",
+    "reporter": "Paul Harris",
+    "dateTime": "2025-08-06T10:45:00",
+    "status": "fake",
+    "image": "/src/assets/image15.jpg",
+    "votes": { "fake": 12, "notFake": 0 },
+    "comments": [
+      { "user": "Aom", "text": "Typical fake news!", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Bangkok Air Quality Hits Record Low",
+    "shortDetail": "Smog levels worsen in central Bangkok.",
+    "fullDetail": "Pollution control department confirmed hazardous levels of PM2.5.",
+    "reporter": "Supaporn Meechai",
+    "dateTime": "2025-08-05T08:15:00",
+    "status": "notFake",
+    "image": "/src/assets/image16.jpg",
+    "votes": { "fake": 0, "notFake": 20 },
+    "comments": [
+      { "user": "Lek", "text": "Need to wear masks daily now.", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Floating City Built in Gulf of Thailand",
+    "shortDetail": "Viral claim shows futuristic city in the ocean.",
+    "fullDetail": "Architects confirmed no such project exists. Images were AI-generated.",
+    "reporter": "Angela Park",
+    "dateTime": "2025-08-04T14:00:00",
+    "status": "fake",
+    "image": "/src/assets/image17.jpg",
+    "votes": { "fake": 18, "notFake": 1 },
+    "comments": [
+      { "user": "Nok", "text": "Fake news, obviously!", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Thai Student Wins Nobel Prize",
+    "shortDetail": "Bangkok student awarded Nobel for physics.",
+    "fullDetail": "Confirmed: A Thai student achieved groundbreaking work and was recognized internationally.",
+    "reporter": "Rachel Lim",
+    "dateTime": "2025-08-03T19:30:00",
+    "status": "notFake",
+    "image": "/src/assets/image18.jpg",
+    "votes": { "fake": 0, "notFake": 25 },
+    "comments": [
+      { "user": "Tom", "text": "Inspiring!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Time Traveler Arrested in Chiang Rai",
+    "shortDetail": "Police allegedly caught a man from the future.",
+    "fullDetail": "Hoax video claimed a man had futuristic devices. Authorities confirmed it was staged.",
+    "reporter": "Tom Richards",
+    "dateTime": "2025-08-02T12:00:00",
+    "status": "fake",
+    "image": "/src/assets/image19.jpg",
+    "votes": { "fake": 22, "notFake": 0 },
+    "comments": [
+      { "user": "", "text": "Haha, totally fake.", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Thailand Opens First AI University",
+    "shortDetail": "New university focused entirely on AI and robotics.",
+    "fullDetail": "Education ministry launched Thailand’s first AI University in Bangkok.",
+    "reporter": "Pimchanok S.",
+    "dateTime": "2025-08-01T09:40:00",
+    "status": "notFake",
+    "image": "/src/assets/image20.jpg",
+    "votes": { "fake": 1, "notFake": 19 },
+    "comments": [
+      { "user": "Sara", "text": "Exciting for students!", "imageUrl": "", "vote": "notFake" }
+    ]
+  }
+]

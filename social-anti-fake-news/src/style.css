@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --brand-dark: #0f172a;
+  --brand-light: #f8fafc;
+  --accent: #ffb703;
+  --accent-hover: #fb8500;
+  --accent-active: #e07b00;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --bg-soft: #f1f5f9;
+  --card-bg: #ffffff;
+  --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --radius: 0.75rem;
+
+  /* Typography */
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Inter', system-ui, sans-serif;
+
+  /* Transition */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-slow: 0.4s ease-in-out;
+}
+
+/* -----------------------
+   Global Reset
+------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--bg-soft);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* -----------------------
+   Typography
+------------------------ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5em;
+  transition: color var(--transition-fast);
+}
+
+p, span, a {
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+a:active {
+  color: var(--accent-active);
+}
+
+/* -----------------------
+   Buttons
+------------------------ */
+button {
+  font-family: var(--font-body);
+  font-weight: 600;
+  background-color: var(--accent);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.6em 1.4em;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  user-select: none;
+}
+
+button:hover {
+  transform: translateY(-2px) scale(1.02);
+  background-color: var(--accent-hover);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+button:active {
+  transform: translateY(0px) scale(0.98);
+  background-color: var(--accent-active);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+button:focus {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* -----------------------
+   Cards
+------------------------ */
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  padding: 1.5rem;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--accent);
+}
+
+.card:active {
+  transform: translateY(2px) scale(0.98);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Card shine effect on hover */
+.card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 60%);
+  transform: rotate(25deg) translateX(-100%);
+  transition: transform var(--transition-slow);
+}
+
+.card:hover::before {
+  transform: rotate(25deg) translateX(200%);
+}
+
+/* -----------------------
+   Inputs / Forms
+------------------------ */
+input[type="text"],
+input[type="url"],
+textarea {
+  width: 100%;
+  padding: 0.6em 1em;
+  border-radius: var(--radius);
+  border: 1px solid #cbd5e1;
+  font-family: var(--font-body);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast), transform var(--transition-fast);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 8px rgba(255, 183, 3, 0.3);
+  transform: scale(1.01);
+}
+
+/* -----------------------
+   Utility Classes
+------------------------ */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+  color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: var(--radius);
+}
+
+/* -----------------------
+   Dark Mode Support
+------------------------ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-soft: #1e293b;
+    --card-bg: #273449;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --accent-hover: #ffb703;
+    --accent-active: #fb8500;
+  }
+
+  body {
+    background-color: var(--bg-soft);
+    color: var(--text-primary);
+  }
+
+  .card {
+    background-color: var(--card-bg);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  }
+
+  input[type="text"],
+  input[type="url"],
+  textarea {
+    background-color: #334155;
+    border: 1px solid #475569;
+    color: #f8fafc;
+  }
+}
