@@ -30,6 +30,24 @@ export const useNewsStore = defineStore('news', {
       if (this.selectedNews?.id === newsId) {
         this.selectedNews = { ...news }
       }
+    },
+    // เพิ่มฟังก์ชัน Add News
+    addNews(newNews) {
+      const nextId = (this.newsList.at(-1)?.id || 0) + 1
+      const news = {
+        id: nextId,
+        title: newNews.title,
+        shortDetail: newNews.shortDetail,
+        fullDetail: newNews.fullDetail,
+        status: newNews.status,
+        reporter: newNews.reporter,
+        dateTime: new Date().toISOString(),
+        image: newNews.image || '',
+        votes: { fake: 0, notFake: 0 },
+        comments: []
+      }
+      this.newsList.push(news)
+      this.selectedNews = news
     }
   }
 })

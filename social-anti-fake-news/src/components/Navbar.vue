@@ -8,6 +8,12 @@
       >
         Home
       </RouterLink>
+      <RouterLink 
+  to="/add" 
+  class="hover:text-cyan-400 transition-colors duration-300 font-medium"
+>
+  Add News
+</RouterLink>
     </div>
   </nav>
 </template>
