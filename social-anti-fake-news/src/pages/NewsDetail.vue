@@ -80,6 +80,8 @@ function formatDate(dateStr) {
 }
 
 .comment-image {
+  width: auto;
+  height: 100%;
   max-width: 280px;
   max-height: 180px;
   object-fit: cover;
