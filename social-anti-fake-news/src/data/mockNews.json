@@ -348,5 +348,145 @@
     "comments": [
       { "user": "Kwan", "text": "Cool experience for kids.", "imageUrl": "", "vote": "notFake" }
     ]
+  },
+   {
+    "id": 26,
+    "title": "Bangkok Launches Electric Bus Fleet",
+    "shortDetail": "City introduces 100 new electric buses.",
+    "fullDetail": "The Department of Transport confirmed the deployment of electric buses to reduce pollution.",
+    "reporter": "Napat Wong",
+    "dateTime": "2025-08-26T08:00:00",
+    "status": "notFake",
+    "image": "/src/assets/image26.jpg",
+    "votes": { "fake": 0, "notFake": 16 },
+    "comments": [
+      { "user": "Anna", "text": "Good step for the environment!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Mystery Crop Circles Appear in Chiang Rai",
+    "shortDetail": "Unexplained patterns found overnight in fields.",
+    "fullDetail": "Farmers discovered large crop circles. Experts suggest human-made hoax.",
+    "reporter": "Tom Richards",
+    "dateTime": "2025-08-25T19:40:00",
+    "status": "fake",
+    "image": "/src/assets/image27.jpg",
+    "votes": { "fake": 14, "notFake": 1 },
+    "comments": [
+      { "user": "Lek", "text": "Clearly staged!", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Bangkok Introduces Free Wi-Fi in Parks",
+    "shortDetail": "Government provides free internet access in public areas.",
+    "fullDetail": "City council confirmed that major parks will have high-speed Wi-Fi available starting next month.",
+    "reporter": "Siriwan Thong",
+    "dateTime": "2025-08-24T12:30:00",
+    "status": "notFake",
+    "image": "/src/assets/image28.jpg",
+    "votes": { "fake": 1, "notFake": 18 },
+    "comments": [
+      { "user": "Jo", "text": "This is amazing!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Phuket Hosts International Kite Festival",
+    "shortDetail": "Colorful kites take to the sky.",
+    "fullDetail": "Tourism board confirms festival attracts global participants every August.",
+    "reporter": "Ken Wong",
+    "dateTime": "2025-08-23T09:15:00",
+    "status": "notFake",
+    "image": "/src/assets/image29.jpg",
+    "votes": { "fake": 0, "notFake": 13 },
+    "comments": [
+      { "user": "Mint", "text": "Love this festival!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Giant Robot Spotted in Bangkok Streets",
+    "shortDetail": "Viral video shows massive robot wandering city.",
+    "fullDetail": "The footage was digitally created. Authorities confirm no robot exists.",
+    "reporter": "Angela Park",
+    "dateTime": "2025-08-22T20:00:00",
+    "status": "fake",
+    "image": "/src/assets/image30.jpg",
+    "votes": { "fake": 18, "notFake": 0 },
+    "comments": [
+      { "user": "Tae", "text": "Clearly fake!", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Thailand Launches National Cycling Day",
+    "shortDetail": "Encouraging citizens to use bicycles.",
+    "fullDetail": "Government promotes healthier lifestyle and reduced pollution with cycling events nationwide.",
+    "reporter": "Pawinee S.",
+    "dateTime": "2025-08-21T07:50:00",
+    "status": "notFake",
+    "image": "/src/assets/image31.jpg",
+    "votes": { "fake": 0, "notFake": 15 },
+    "comments": [
+      { "user": "Sara", "text": "Great initiative!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Phantom Submarine Sighted in Gulf of Thailand",
+    "shortDetail": "Boaters report a strange underwater vessel.",
+    "fullDetail": "Naval authorities confirmed it was a misidentified fishing vessel. Hoax news spread online.",
+    "reporter": "Chris Tan",
+    "dateTime": "2025-08-20T17:20:00",
+    "status": "fake",
+    "image": "/src/assets/image32.jpg",
+    "votes": { "fake": 16, "notFake": 1 },
+    "comments": [
+      { "user": "Ben", "text": "Totally fake.", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Bangkok Hosts International Food Festival",
+    "shortDetail": "Chefs from around the world showcase their cuisine.",
+    "fullDetail": "Confirmed by tourism authority, festival brings new culinary experiences to locals and tourists.",
+    "reporter": "Emily Clark",
+    "dateTime": "2025-08-19T11:45:00",
+    "status": "notFake",
+    "image": "/src/assets/image33.jpg",
+    "votes": { "fake": 0, "notFake": 14 },
+    "comments": [
+      { "user": "Ploy", "text": "Can’t wait to try the food!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Loch Ness Monster Found in Thai Lake",
+    "shortDetail": "Viral post claims legendary creature spotted.",
+    "fullDetail": "Experts dismissed claims as fabricated photos. No evidence of creature exists.",
+    "reporter": "Mark Evans",
+    "dateTime": "2025-08-18T16:10:00",
+    "status": "fake",
+    "image": "/src/assets/image34.jpg",
+    "votes": { "fake": 22, "notFake": 0 },
+    "comments": [
+      { "user": "Tony", "text": "Obviously fake 😂", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Thailand Introduces Smart Traffic Lights",
+    "shortDetail": "AI-driven traffic management system deployed.",
+    "fullDetail": "Bangkok city officials implement smart lights to reduce congestion and improve safety.",
+    "reporter": "Natasha Li",
+    "dateTime": "2025-08-17T08:30:00",
+    "status": "notFake",
+    "image": "/src/assets/image35.jpg",
+    "votes": { "fake": 1, "notFake": 13 },
+    "comments": [
+      { "user": "Kwan", "text": "Really makes commuting easier!", "imageUrl": "", "vote": "notFake" }
+    ]
   }
 ]
