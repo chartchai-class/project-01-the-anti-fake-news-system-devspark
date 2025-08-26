@@ -7,7 +7,7 @@
     "reporter": "John Doe",
     "dateTime": "2025-08-20T14:30:00",
     "status": "fake",
-    "image": "/src/assets/image1.jpg",
+    "image": "/images/image1.jpg",
     "votes": { "fake": 12, "notFake": 3 },
     "comments": [
       { "user": "Jane", "text": "Looks photoshopped!", "imageUrl": "", "vote": "fake" },
@@ -22,7 +22,7 @@
     "reporter": "Somchai Prasert",
     "dateTime": "2025-08-19T10:00:00",
     "status": "notFake",
-    "image": "/src/assets/image2.jpg",
+    "image": "/images/image2.jpg",
     "votes": { "fake": 2, "notFake": 15 },
     "comments": [
       { "user": "Nok", "text": "My house was flooded yesterday.", "imageUrl": "", "vote": "notFake" }
@@ -36,7 +36,7 @@
     "reporter": "Lisa Chan",
     "dateTime": "2025-08-18T18:45:00",
     "status": "fake",
-    "image": "/src/assets/image3.jpg",
+    "image": "/images/image3.jpg",
     "votes": { "fake": 20, "notFake": 1 },
     "comments": [
       { "user": "Mark", "text": "Definitely fake news 😂", "imageUrl": "", "vote": "fake" }
@@ -50,7 +50,7 @@
     "reporter": "Michael Lee",
     "dateTime": "2025-08-17T12:20:00",
     "status": "fake",
-    "image": "/src/assets/image4.jpg",
+    "image": "/images/image4.jpg",
     "votes": { "fake": 14, "notFake": 0 },
     "comments": [
       { "user": "David", "text": "Would have been amazing if true!", "imageUrl": "", "vote": "fake" }
@@ -64,7 +64,7 @@
     "reporter": "Napat Wong",
     "dateTime": "2025-08-16T09:00:00",
     "status": "notFake",
-    "image": "/src/assets/image5.jpg",
+    "image": "/images/image5.jpg",
     "votes": { "fake": 0, "notFake": 22 },
     "comments": [
       { "user": "Anna", "text": "Finally! My commute is easier now.", "imageUrl": "", "vote": "notFake" }
@@ -78,7 +78,7 @@
     "reporter": "Aree Phan",
     "dateTime": "2025-08-15T14:10:00",
     "status": "fake",
-    "image": "/src/assets/image6.jpg",
+    "image": "/images/image6.jpg",
     "votes": { "fake": 19, "notFake": 2 },
     "comments": [
       { "user": "Ming", "text": "LOL, this is so fake.", "imageUrl": "", "vote": "fake" }
@@ -92,7 +92,7 @@
     "reporter": "David Kim",
     "dateTime": "2025-08-14T08:30:00",
     "status": "notFake",
-    "image": "/src/assets/image7.jpg",
+    "image": "/images/image7.jpg",
     "votes": { "fake": 3, "notFake": 18 },
     "comments": [
       { "user": "Lalisa", "text": "This is great news for everyone!", "imageUrl": "", "vote": "notFake" }
@@ -106,7 +106,7 @@
     "reporter": "Siriwan Thong",
     "dateTime": "2025-08-13T19:15:00",
     "status": "fake",
-    "image": "/src/assets/image8.jpg",
+    "image": "/images/image8.jpg",
     "votes": { "fake": 10, "notFake": 1 },
     "comments": []
   },
@@ -118,27 +118,25 @@
     "reporter": "Anan Suwan",
     "dateTime": "2025-08-12T15:50:00",
     "status": "notFake",
-    "image": "/src/assets/image9.jpg",
+    "image": "/images/image9.jpg",
     "votes": { "fake": 1, "notFake": 12 },
     "comments": [
-      { "user": "Aom", "text": "So proud of our country!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Pim", "text": "Exciting news for Thailand!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 10,
-    "title": "McDonald's Launches Durian Burger",
-    "shortDetail": "Viral photo shows McDonald's Thailand selling durian burgers.",
-    "fullDetail": "A viral image circulating on social media suggested that McDonald's Thailand had introduced a durian-flavored burger. The post included pictures of a bun with durian slices and captions claiming it was officially on the menu. McDonald's Thailand quickly released a statement denying the claims, confirming that no such product exists. Marketing experts noted that the image appeared to be a photoshopped advertisement meant to attract attention. While the post generated amusement and curiosity among social media users, authorities warned against spreading misinformation without verification.",
-    "reporter": "Chris Tan",
-    "dateTime": "2025-08-11T11:25:00",
+    "title": "Giant Meteor Heading Towards Earth",
+    "shortDetail": "Viral post claims imminent meteor strike.",
+    "fullDetail": "A social media post went viral claiming that a giant meteor would strike Earth within days. Scientists immediately debunked the claim, clarifying that no such threat exists. Astronomers emphasized the importance of relying on official space agencies for accurate information. Despite the false alarm, the post triggered widespread panic online and highlighted the influence of sensational content in social media.",
+    "reporter": "Kittipong Tan",
+    "dateTime": "2025-08-11T11:40:00",
     "status": "fake",
-    "image": "/src/assets/image10.jpg",
-    "votes": { "fake": 17, "notFake": 0 },
-    "comments": [
-      { "user": "Ben", "text": "I’d actually try this 😂", "imageUrl": "", "vote": "fake" }
-    ]
+    "image": "/images/image10.jpg",
+    "votes": { "fake": 25, "notFake": 0 },
+    "comments": []
   },
-  {
+   {
     "id": 11,
     "title": "Thai Baht Hits Record High",
     "shortDetail": "Currency strengthens against US dollar.",
@@ -146,7 +144,7 @@
     "reporter": "Emily Clark",
     "dateTime": "2025-08-10T09:10:00",
     "status": "notFake",
-    "image": "/src/assets/image11.jpg",
+    "image": "/images/image11.jpg",
     "votes": { "fake": 2, "notFake": 14 },
     "comments": [
       { "user": "Ploy", "text": "Finally some good news for the economy!", "imageUrl": "", "vote": "notFake" },
@@ -161,7 +159,7 @@
     "reporter": "Mark Evans",
     "dateTime": "2025-08-09T16:40:00",
     "status": "fake",
-    "image": "/src/assets/image12.jpg",
+    "image": "/images/image12.jpg",
     "votes": { "fake": 25, "notFake": 0 },
     "comments": [
       { "user": "Tony", "text": "This has to be fake 😂", "imageUrl": "", "vote": "fake" }
@@ -175,7 +173,7 @@
     "reporter": "Natasha Li",
     "dateTime": "2025-08-08T13:55:00",
     "status": "notFake",
-    "image": "/src/assets/image13.jpg",
+    "image": "/images/image13.jpg",
     "votes": { "fake": 0, "notFake": 11 },
     "comments": [
       { "user": "Kwan", "text": "Amazing progress!", "imageUrl": "", "vote": "notFake" }
@@ -189,7 +187,7 @@
     "reporter": "Kittisak Rung",
     "dateTime": "2025-08-07T17:20:00",
     "status": "notFake",
-    "image": "/src/assets/image14.jpg",
+    "image": "/images/image14.jpg",
     "votes": { "fake": 1, "notFake": 16 },
     "comments": [
       { "user": "", "text": "Wow, saw it on news!", "imageUrl": "", "vote": "notFake" }
@@ -203,7 +201,7 @@
     "reporter": "Paul Harris",
     "dateTime": "2025-08-06T10:45:00",
     "status": "fake",
-    "image": "/src/assets/image15.jpg",
+    "image": "/images/image15.jpg",
     "votes": { "fake": 12, "notFake": 0 },
     "comments": [
       { "user": "Aom", "text": "Typical fake news!", "imageUrl": "", "vote": "fake" }
@@ -217,7 +215,7 @@
     "reporter": "Supaporn Meechai",
     "dateTime": "2025-08-05T08:15:00",
     "status": "notFake",
-    "image": "/src/assets/image16.jpg",
+    "image": "/images/image16.jpg",
     "votes": { "fake": 0, "notFake": 20 },
     "comments": [
       { "user": "Lek", "text": "Need to wear masks daily now.", "imageUrl": "", "vote": "notFake" }
@@ -231,7 +229,7 @@
     "reporter": "Angela Park",
     "dateTime": "2025-08-04T14:00:00",
     "status": "fake",
-    "image": "/src/assets/image17.jpg",
+    "image": "/images/image17.jpg",
     "votes": { "fake": 18, "notFake": 1 },
     "comments": [
       { "user": "Nok", "text": "Fake news, obviously!", "imageUrl": "", "vote": "fake" }
@@ -245,7 +243,7 @@
     "reporter": "Rachel Lim",
     "dateTime": "2025-08-03T19:30:00",
     "status": "notFake",
-    "image": "/src/assets/image18.jpg",
+    "image": "/images/image18.jpg",
     "votes": { "fake": 0, "notFake": 25 },
     "comments": [
       { "user": "Tom", "text": "Inspiring!", "imageUrl": "", "vote": "notFake" }
@@ -259,7 +257,7 @@
     "reporter": "Tom Richards",
     "dateTime": "2025-08-02T12:00:00",
     "status": "fake",
-    "image": "/src/assets/image19.jpg",
+    "image": "/images/image19.jpg",
     "votes": { "fake": 22, "notFake": 0 },
     "comments": [
       { "user": "", "text": "Haha, totally fake.", "imageUrl": "", "vote": "fake" }
@@ -269,224 +267,224 @@
     "id": 20,
     "title": "Thailand Opens First AI University",
     "shortDetail": "New university focused entirely on AI and robotics.",
-    "fullDetail": "Thailand officially launched its first AI University in Bangkok, dedicated to advanced research in artificial intelligence, robotics, and data science. The Ministry of Education stated that the university aims to train a new generation of AI specialists to support national innovation and global competitiveness. Initial programs include robotics engineering, machine learning, and ethical AI governance. Industry leaders partnered with the university to offer internships and research opportunities. Students and academics expressed excitement, emphasizing the importance of cutting-edge education for Thailand’s future technological development.",
-    "reporter": "Pimchanok S.",
-    "dateTime": "2025-08-01T09:40:00",
+    "fullDetail": "Thailand officially launched its first AI University in Bangkok, dedicated to advanced research in artificial intelligence, robotics, and data science. The Ministry of Education stated that the university aims to train a new generation of AI specialists to support national innovation and global competitiveness. Initial programs include robotics engineering, machine learning, and ethical AI governance. Industry leaders partnered with the university to offer internships and research opportunities. Students and academics expressed excitement, emphasizing that this initiative places Thailand at the forefront of technological education in Southeast Asia.",
+    "reporter": "Linda Wong",
+    "dateTime": "2025-08-01T09:50:00",
     "status": "notFake",
-    "image": "/src/assets/image20.jpg",
-    "votes": { "fake": 1, "notFake": 19 },
+    "image": "/images/image20.jpg",
+    "votes": { "fake": 0, "notFake": 30 },
     "comments": [
-      { "user": "Sara", "text": "Exciting for students!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Bee", "text": "Amazing opportunity for students!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 21,
-    "title": "Meteor Shower Visible in Chiang Mai Tonight",
-    "shortDetail": "Skywatchers report a spectacular meteor shower.",
-    "fullDetail": "Astronomers confirmed that a peak meteor shower will be visible tonight across northern Thailand, particularly in Chiang Mai. The annual Perseid meteor shower is expected to produce dozens of meteors per hour, with the best viewing conditions in rural areas away from city lights. Observatories encouraged enthusiasts to use telescopes or simply watch the sky with the naked eye. Local tourism agencies organized guided night tours and stargazing events. Citizens and visitors are eagerly preparing cameras and blankets for the experience, which promises a spectacular natural show.",
-    "reporter": "Nicha Boon",
-    "dateTime": "2025-08-26T21:00:00",
-    "status": "notFake",
-    "image": "/src/assets/image21.jpg",
-    "votes": { "fake": 0, "notFake": 12 },
+    "title": "Mystery Crop Circles in Kanchanaburi",
+    "shortDetail": "Strange formations appear overnight in fields.",
+    "fullDetail": "Viral photos showed strange crop circles appearing overnight in Kanchanaburi. Local authorities investigated and determined that the formations were man-made, created by pranksters using ropes and boards. Experts noted that while crop circles can be visually impressive, there is no evidence linking them to extraterrestrial activity. Social media users shared the images widely, with many joking about alien invasions. Farmers expressed concern about property damage but emphasized that no one was harmed. Authorities urged the public to respect farmland and avoid spreading sensational claims.",
+    "reporter": "James Parker",
+    "dateTime": "2025-07-31T18:25:00",
+    "status": "fake",
+    "image": "/images/image21.jpg",
+    "votes": { "fake": 16, "notFake": 2 },
     "comments": [
-      { "user": "Mint", "text": "Can’t wait to watch!", "imageUrl": "", "vote": "notFake" }
+      { "user": "May", "text": "Clearly fake but funny!", "imageUrl": "", "vote": "fake" }
     ]
   },
   {
     "id": 22,
-    "title": "Bangkok Subway to Introduce Night Service",
-    "shortDetail": "MRT to operate until midnight starting next month.",
-    "fullDetail": "The Bangkok Metropolitan Administration announced that the MRT subway will extend operating hours until midnight starting next month to alleviate evening traffic congestion. Officials stated that trains will run every 15 minutes during late-night hours, with increased security personnel for passenger safety. The move is part of a broader plan to enhance public transport convenience and reduce reliance on personal vehicles. Commuters welcomed the announcement, noting that it will improve accessibility for workers, tourists, and residents attending late events or nightlife activities.",
-    "reporter": "Pawinee S.",
-    "dateTime": "2025-08-25T10:30:00",
+    "title": "Bangkok Subway Extends Hours",
+    "shortDetail": "City announces longer operation times for MRT.",
+    "fullDetail": "Bangkok's MRT subway network announced extended operation hours starting next month to accommodate increased ridership and tourism demands. The Department of Transport indicated that trains will now run until midnight on weekdays and 1 AM on weekends. The extension is expected to ease traffic congestion and provide safer travel options for residents and visitors. City officials also plan to improve station accessibility and enhance security measures. Citizens welcomed the announcement, highlighting convenience for late-night commuters and tourists exploring the city.",
+    "reporter": "Nattapong S.",
+    "dateTime": "2025-07-30T07:40:00",
     "status": "notFake",
-    "image": "/src/assets/image22.jpg",
-    "votes": { "fake": 1, "notFake": 18 },
+    "image": "/images/image22.jpg",
+    "votes": { "fake": 0, "notFake": 19 },
     "comments": [
-      { "user": "Jo", "text": "Finally! So convenient.", "imageUrl": "", "vote": "notFake" }
+      { "user": "Fah", "text": "Great news for late-night travel!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 23,
-    "title": "Giant Meteor Lands in Phuket",
-    "shortDetail": "Viral post claims huge meteor crashed into beach.",
-    "fullDetail": "A viral post claimed that a giant meteor had landed on a beach in Phuket, showing dramatic images of a crater and smoke. Scientists and local authorities quickly confirmed that no meteor had impacted the area. Experts said the images were digitally altered to create sensational content. The viral post led to social media discussions and jokes about 'apocalyptic scenarios.' Authorities reminded the public to rely on verified reports and not spread unconfirmed claims, especially those causing unnecessary panic.",
-    "reporter": "Ken Wong",
-    "dateTime": "2025-08-24T15:20:00",
+    "title": "Phuket Volcano Eruption?",
+    "shortDetail": "Viral photo claims new eruption on island.",
+    "fullDetail": "A viral post showed a smoke column and claimed that a volcano erupted in Phuket. Geologists and authorities confirmed there is no active volcano on Phuket and that the image was digitally altered. The post caused temporary panic among residents and tourists. Social media platforms flagged the content as misinformation. Experts emphasized the importance of cross-checking disaster news with credible sources, and authorities reassured the public that Phuket remains safe from volcanic activity.",
+    "reporter": "Daniel Kim",
+    "dateTime": "2025-07-29T15:15:00",
     "status": "fake",
-    "image": "/src/assets/image23.jpg",
-    "votes": { "fake": 21, "notFake": 0 },
+    "image": "/images/image23.jpg",
+    "votes": { "fake": 20, "notFake": 0 },
     "comments": [
-      { "user": "Tae", "text": "Obvious fake news.", "imageUrl": "", "vote": "fake" }
+      { "user": "Oat", "text": "Completely fake!", "imageUrl": "", "vote": "fake" }
     ]
   },
   {
     "id": 24,
-    "title": "Thailand to Host International eSports Tournament",
-    "shortDetail": "Bangkok selected as venue for global gaming event.",
-    "fullDetail": "Thailand has been selected to host an international eSports tournament in Bangkok next year. The Ministry of Sports confirmed that the event will feature competitions in popular video games, attracting top players and teams worldwide. Organizers stated that the tournament aims to boost tourism, support youth engagement in technology, and showcase Thailand’s growing role in the gaming industry. Preparations include state-of-the-art venues, broadcast facilities, and interactive fan zones. Gamers and fans expressed excitement about participating and attending the event, highlighting Thailand’s emerging eSports scene.",
-    "reporter": "Arisa Tan",
-    "dateTime": "2025-08-23T13:00:00",
+    "title": "Thailand Hosts World Chess Championship",
+    "shortDetail": "Bangkok becomes center of international chess.",
+    "fullDetail": "Thailand successfully hosted the World Chess Championship in Bangkok, attracting top players from around the globe. The event showcased competitive matches, workshops, and cultural exchanges, with local organizers emphasizing hospitality and efficient event management. The Thai Chess Federation highlighted the significance of hosting such a prestigious event, promoting chess education and youth participation in the country. Spectators enjoyed live matches and interactive sessions with grandmasters. International media praised the organization, reflecting positively on Thailand’s capability to host global sporting events.",
+    "reporter": "Sophie Tan",
+    "dateTime": "2025-07-28T12:50:00",
     "status": "notFake",
-    "image": "/src/assets/image24.jpg",
-    "votes": { "fake": 0, "notFake": 15 },
+    "image": "/images/image24.jpg",
+    "votes": { "fake": 0, "notFake": 14 },
     "comments": [
-      { "user": "Nok", "text": "Excited for this event!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Chai", "text": "Amazing event for chess lovers!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 25,
-    "title": "Bangkok Zoo Introduces Robot Animals",
-    "shortDetail": "New robotic wildlife exhibit unveiled.",
-    "fullDetail": "Bangkok Zoo unveiled a new robotic wildlife exhibit designed to educate children and visitors about animal behavior and conservation. The exhibit features interactive robots mimicking animals’ movements, sounds, and feeding habits. Officials explained that the initiative provides a safe and educational alternative to live animal interaction, highlighting conservation and sustainability. The response from visitors was overwhelmingly positive, with many praising the combination of technology and education. The zoo plans to expand the program with more species and interactive learning modules in the coming months.",
-    "reporter": "Somchai R.",
-    "dateTime": "2025-08-22T11:10:00",
-    "status": "notFake",
-    "image": "/src/assets/image25.jpg",
-    "votes": { "fake": 2, "notFake": 14 },
+    "title": "Floating Market Appears in Bangkok Canal",
+    "shortDetail": "Social media claims sudden floating market emergence.",
+    "fullDetail": "A video circulated online claiming that a new floating market appeared overnight in a central Bangkok canal. Authorities confirmed that no new market was established, and the video was a montage of old footage edited to look recent. The viral content caused confusion among tourists planning visits. Local merchants reminded the public that floating markets require extensive preparation and infrastructure. Experts highlighted the importance of verifying travel information from official tourism sources to avoid misinformation and disappointment.",
+    "reporter": "Alex Wong",
+    "dateTime": "2025-07-27T09:30:00",
+    "status": "fake",
+    "image": "/images/image25.jpg",
+    "votes": { "fake": 15, "notFake": 1 },
     "comments": [
-      { "user": "Kwan", "text": "Cool experience for kids.", "imageUrl": "", "vote": "notFake" }
+      { "user": "Nok", "text": "Haha, totally fake video!", "imageUrl": "", "vote": "fake" }
     ]
   },
   {
     "id": 26,
-    "title": "Bangkok Launches Electric Bus Fleet",
-    "shortDetail": "City introduces 100 new electric buses.",
-    "fullDetail": "The Department of Transport announced the launch of 100 electric buses in Bangkok to reduce emissions and modernize public transport. The buses feature low-noise, zero-emission technology, and are equipped with Wi-Fi and real-time GPS tracking. Authorities noted that the electric fleet will operate on key city routes and gradually expand over the next year. Citizens praised the initiative, emphasizing benefits such as cleaner air and a more sustainable urban transport system. Environmental groups highlighted the project as a major step towards greener city planning and climate-friendly initiatives.",
-    "reporter": "Napat Wong",
-    "dateTime": "2025-08-26T08:00:00",
+    "title": "New High-Speed Rail Connects Bangkok to Chiang Mai",
+    "shortDetail": "Railway project inaugurated with advanced trains.",
+    "fullDetail": "Thailand inaugurated its first high-speed rail connecting Bangkok and Chiang Mai, reducing travel time significantly. Officials emphasized modern train technology, safety standards, and enhanced passenger comfort. The project aims to boost tourism, business travel, and regional development. Citizens expressed excitement over faster transportation options, while urban planners discussed potential economic benefits for cities along the route. Environmental assessments were conducted to ensure sustainable development, and authorities promised ongoing monitoring of rail performance.",
+    "reporter": "Ming Lee",
+    "dateTime": "2025-07-26T08:00:00",
     "status": "notFake",
-    "image": "/src/assets/image26.jpg",
-    "votes": { "fake": 0, "notFake": 16 },
+    "image": "/images/image26.jpg",
+    "votes": { "fake": 0, "notFake": 22 },
     "comments": [
-      { "user": "Anna", "text": "Good step for the environment!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Aom", "text": "Finally a faster way to travel north!", "imageUrl": "", "vote": "notFake" }
     ]
   },
-   {
+  {
     "id": 27,
-    "title": "Mystery Crop Circles Appear in Chiang Rai",
-    "shortDetail": "Unexplained patterns found overnight in fields.",
-    "fullDetail": "Farmers in Chiang Rai discovered large, intricate crop circles overnight, sparking curiosity and speculation. Local experts and agricultural authorities investigated the phenomenon, concluding the designs were human-made hoaxes rather than natural or extraterrestrial occurrences. Drone footage showed symmetrical patterns in several rice fields. The news went viral on social media, leading to debates about hoax culture and public gullibility. Authorities advised visitors to respect farmland and avoid trespassing while enjoying the spectacle from a safe distance.",
-    "reporter": "Tom Richards",
-    "dateTime": "2025-08-25T19:40:00",
+    "title": "Phuket Beach Turns Pink",
+    "shortDetail": "Photos show sand turned pink overnight.",
+    "fullDetail": "Viral images claimed that a Phuket beach turned pink overnight due to mysterious phenomena. Environmental scientists confirmed that the photos were digitally altered, and no such natural occurrence took place. The pink hue in the images was attributed to social media editing apps. Tourists and locals shared the images widely, sparking curiosity and jokes online. Authorities reminded the public to rely on verified information when planning trips or reporting environmental changes.",
+    "reporter": "Linda Chen",
+    "dateTime": "2025-07-25T17:45:00",
     "status": "fake",
-    "image": "/src/assets/image27.jpg",
-    "votes": { "fake": 14, "notFake": 1 },
+    "image": "/images/image27.jpg",
+    "votes": { "fake": 18, "notFake": 0 },
     "comments": [
-      { "user": "Lek", "text": "Clearly staged!", "imageUrl": "", "vote": "fake" }
+      { "user": "Lek", "text": "Obvious fake!", "imageUrl": "", "vote": "fake" }
     ]
   },
   {
     "id": 28,
-    "title": "Bangkok Introduces Free Wi-Fi in Parks",
-    "shortDetail": "Government provides free internet access in public areas.",
-    "fullDetail": "Bangkok city council announced that major public parks will offer free high-speed Wi-Fi starting next month. The initiative aims to enhance accessibility, promote digital literacy, and encourage residents and tourists to spend more time outdoors. Technical teams have installed secure, high-capacity routers throughout popular park areas, ensuring stable connectivity. The city also plans to organize online educational workshops and digital events in parks, making them hubs for learning and recreation. Residents responded positively, highlighting convenience for students, remote workers, and casual users.",
-    "reporter": "Siriwan Thong",
-    "dateTime": "2025-08-24T12:30:00",
+    "title": "Thai Government Launches Space Program",
+    "shortDetail": "Plans for satellites and astronauts announced.",
+    "fullDetail": "Thailand announced a national space program focused on launching satellites, developing astronaut training programs, and advancing space research. Officials highlighted partnerships with international space agencies and local universities to promote STEM education and innovation. The initiative aims to position Thailand as a key player in the regional aerospace industry. Citizens expressed pride and curiosity about the new program. Media coverage emphasized both the challenges and opportunities associated with developing a sustainable and competitive space program.",
+    "reporter": "James Tan",
+    "dateTime": "2025-07-24T11:20:00",
     "status": "notFake",
-    "image": "/src/assets/image28.jpg",
-    "votes": { "fake": 1, "notFake": 18 },
+    "image": "/images/image28.jpg",
+    "votes": { "fake": 0, "notFake": 21 },
     "comments": [
-      { "user": "Jo", "text": "This is amazing!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Fah", "text": "Exciting for young scientists!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 29,
-    "title": "Phuket Hosts International Kite Festival",
-    "shortDetail": "Colorful kites take to the sky.",
-    "fullDetail": "Phuket’s annual International Kite Festival attracted participants from around the world, showcasing vibrant and creative kite designs. The Tourism Board confirmed that over 200 competitors displayed traditional and modern kites in beach competitions, cultural performances, and interactive workshops. Spectators enjoyed kite-flying demonstrations, drone light shows, and local food markets. The festival promotes tourism, supports local artisans, and celebrates Thailand’s cultural heritage. Visitors praised the event’s organization and scenic coastal backdrop, making it one of the region’s most popular summer attractions.",
-    "reporter": "Ken Wong",
-    "dateTime": "2025-08-23T09:15:00",
-    "status": "notFake",
-    "image": "/src/assets/image29.jpg",
-    "votes": { "fake": 0, "notFake": 13 },
+    "title": "Giant Shark Sighted Near Pattaya",
+    "shortDetail": "Social media spreads shark sighting video.",
+    "fullDetail": "A video circulated online claiming a giant shark was sighted near Pattaya beach. Marine authorities investigated and confirmed the video was digitally edited. The viral content caused temporary fear among tourists and locals. Experts explained that such large sharks do not inhabit shallow coastal waters near Pattaya. Authorities reminded citizens to verify information from credible marine research organizations before sharing on social media.",
+    "reporter": "Tommy Lee",
+    "dateTime": "2025-07-23T14:05:00",
+    "status": "fake",
+    "image": "/images/image29.jpg",
+    "votes": { "fake": 17, "notFake": 0 },
     "comments": [
-      { "user": "Mint", "text": "Love this festival!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Nok", "text": "Fake news again!", "imageUrl": "", "vote": "fake" }
     ]
   },
   {
     "id": 30,
-    "title": "Giant Robot Spotted in Bangkok Streets",
-    "shortDetail": "Viral video shows massive robot wandering city.",
-    "fullDetail": "A video circulated on social media showing a massive robot walking through central Bangkok streets, alarming viewers. Authorities investigated and confirmed the footage was digitally created using CGI and augmented reality. Experts explained the viral clip was part of a marketing stunt for a robotics exhibition, not a real event. The incident sparked widespread discussion about digital content, misinformation, and public reaction to hyper-realistic visual effects. Residents expressed amusement and fascination, sharing memes and videos highlighting the fake robot scenario.",
-    "reporter": "Angela Park",
-    "dateTime": "2025-08-22T20:00:00",
-    "status": "fake",
-    "image": "/src/assets/image30.jpg",
-    "votes": { "fake": 18, "notFake": 0 },
+    "title": "Bangkok Hosts International Film Festival",
+    "shortDetail": "Cinema from around the world showcased in city.",
+    "fullDetail": "Bangkok hosted the International Film Festival, featuring films from multiple countries, panel discussions, and workshops. The festival promoted cultural exchange, film education, and creative collaboration. Local cinemas and theaters participated, and tourists attended screenings of both mainstream and independent films. Officials highlighted the event as a platform for emerging filmmakers and international collaboration. Citizens praised the organization and the exposure to global cinema.",
+    "reporter": "Rachel Tan",
+    "dateTime": "2025-07-22T10:30:00",
+    "status": "notFake",
+    "image": "/images/image30.jpg",
+    "votes": { "fake": 0, "notFake": 16 },
     "comments": [
-      { "user": "Tae", "text": "Clearly fake!", "imageUrl": "", "vote": "fake" }
+      { "user": "Chai", "text": "Love the film selections!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 31,
-    "title": "Thailand Launches National Cycling Day",
-    "shortDetail": "Encouraging citizens to use bicycles.",
-    "fullDetail": "Thailand celebrated its first National Cycling Day, promoting bicycle use for health and environmental benefits. The Ministry of Transport and local municipalities organized citywide cycling events, safety workshops, and community rides. Officials emphasized the initiative as part of a larger plan to reduce traffic congestion, lower carbon emissions, and encourage active lifestyles. Citizens from all age groups participated, enjoying scenic routes, safety checkpoints, and educational programs. The event received media coverage and positive social media engagement, highlighting Thailand’s commitment to sustainable transport.",
-    "reporter": "Pawinee S.",
-    "dateTime": "2025-08-21T07:50:00",
+    "title": "Thailand Discovers New Species of Orchid",
+    "shortDetail": "Researchers find unique flower in northern forest.",
+    "fullDetail": "Botanists in northern Thailand discovered a new species of orchid with distinct colors and petal shapes. The Ministry of Natural Resources and Environment confirmed the discovery and highlighted its importance for biodiversity and conservation efforts. The new species was named after the region where it was found. Researchers plan further studies to understand its ecological role and potential medicinal properties. Citizens expressed pride in Thailand's rich biodiversity and commitment to environmental protection.",
+    "reporter": "Emily Tan",
+    "dateTime": "2025-07-21T09:10:00",
     "status": "notFake",
-    "image": "/src/assets/image31.jpg",
-    "votes": { "fake": 0, "notFake": 15 },
+    "image": "/images/image31.jpg",
+    "votes": { "fake": 0, "notFake": 18 },
     "comments": [
-      { "user": "Sara", "text": "Great initiative!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Ploy", "text": "Beautiful discovery!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 32,
-    "title": "Phantom Submarine Sighted in Gulf of Thailand",
-    "shortDetail": "Boaters report a strange underwater vessel.",
-    "fullDetail": "Several boaters reported sighting a mysterious submarine-like vessel in the Gulf of Thailand, claiming it had unusual lights and movements. Naval authorities investigated and determined it was a misidentified commercial fishing vessel with reflective surfaces. The story went viral on social media, with many speculating about secret military operations. Experts and authorities emphasized the importance of verifying sightings before sharing, noting the human tendency to exaggerate unusual events. The incident served as a reminder about critical thinking and avoiding panic from unverified reports.",
-    "reporter": "Chris Tan",
-    "dateTime": "2025-08-20T17:20:00",
+    "title": "Ghost Ship Appears in Gulf of Thailand",
+    "shortDetail": "Social media claims haunted vessel spotted at sea.",
+    "fullDetail": "A viral video claimed a ghost ship appeared in the Gulf of Thailand. Maritime authorities confirmed that the video was fabricated using CGI effects. The footage sparked curiosity and fear online, with many users sharing stories and memes. Experts reminded the public that no verified reports exist of supernatural ships and emphasized responsible social media use. Local communities were unaffected, and authorities encouraged relying on verified news sources.",
+    "reporter": "Daniel Park",
+    "dateTime": "2025-07-20T12:50:00",
     "status": "fake",
-    "image": "/src/assets/image32.jpg",
-    "votes": { "fake": 16, "notFake": 1 },
+    "image": "/images/image32.jpg",
+    "votes": { "fake": 21, "notFake": 0 },
     "comments": [
-      { "user": "Ben", "text": "Totally fake.", "imageUrl": "", "vote": "fake" }
+      { "user": "Tony", "text": "Obvious fake!", "imageUrl": "", "vote": "fake" }
     ]
   },
   {
     "id": 33,
-    "title": "Bangkok Hosts International Food Festival",
-    "shortDetail": "Chefs from around the world showcase their cuisine.",
-    "fullDetail": "Bangkok hosted an International Food Festival, featuring chefs from Asia, Europe, and the Americas showcasing their signature dishes. The Tourism Authority confirmed the festival included cooking workshops, live demonstrations, and competitions to highlight culinary diversity. Visitors experienced tasting sessions, street food zones, and cultural performances alongside the culinary exhibits. Organizers emphasized the event’s role in promoting tourism, supporting local businesses, and providing opportunities for cultural exchange. Residents and tourists enjoyed the vibrant atmosphere, capturing photos and sharing experiences online.",
-    "reporter": "Emily Clark",
-    "dateTime": "2025-08-19T11:45:00",
+    "title": "Chiang Mai Hosts Lantern Festival",
+    "shortDetail": "Annual festival celebrated with thousands of lanterns.",
+    "fullDetail": "Chiang Mai hosted its annual Lantern Festival, attracting thousands of locals and tourists. The event showcased traditional cultural performances, lantern releases, and local crafts. Authorities emphasized safety measures and crowd management. The festival highlighted Thailand’s rich cultural heritage and promoted tourism. Citizens and tourists enjoyed the spectacle, taking part in lighting lanterns and celebrating together. Media coverage praised the organization and the cultural significance of the event.",
+    "reporter": "Sophie Lim",
+    "dateTime": "2025-07-19T19:30:00",
     "status": "notFake",
-    "image": "/src/assets/image33.jpg",
-    "votes": { "fake": 0, "notFake": 14 },
+    "image": "/images/image33.jpg",
+    "votes": { "fake": 0, "notFake": 22 },
     "comments": [
-      { "user": "Ploy", "text": "Can’t wait to try the food!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Kwan", "text": "So beautiful!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 34,
-    "title": "Loch Ness Monster Found in Thai Lake",
-    "shortDetail": "Viral post claims legendary creature spotted.",
-    "fullDetail": "A viral post claimed that the legendary Loch Ness Monster had been spotted in a Thai lake, showing dramatic photos of a long, scaly creature. Local authorities and wildlife experts investigated and confirmed the images were digitally altered, with no evidence of such a creature in Thailand. The incident sparked jokes, memes, and viral social media commentary, emphasizing the public’s fascination with mythical creatures. Experts highlighted the importance of media literacy and verifying claims before sharing sensational images online. The story reminded citizens to differentiate between entertainment and factual news.",
-    "reporter": "Mark Evans",
-    "dateTime": "2025-08-18T16:10:00",
-    "status": "fake",
-    "image": "/src/assets/image34.jpg",
-    "votes": { "fake": 22, "notFake": 0 },
+    "title": "Thailand Tests Hyperloop Prototype",
+    "shortDetail": "High-speed transportation tested between Bangkok and nearby city.",
+    "fullDetail": "Thailand conducted a successful test of a hyperloop prototype connecting Bangkok to a nearby city. Officials highlighted advanced technology, safety features, and the potential to reduce travel times dramatically. Engineers monitored performance metrics and passenger comfort. The government plans further tests and eventual expansion if successful. Citizens expressed excitement about the future of high-speed travel and sustainable transport innovation in Thailand.",
+    "reporter": "Angela Lim",
+    "dateTime": "2025-07-18T08:45:00",
+    "status": "notFake",
+    "image": "/images/image34.jpg",
+    "votes": { "fake": 0, "notFake": 20 },
     "comments": [
-      { "user": "Tony", "text": "Obviously fake 😂", "imageUrl": "", "vote": "fake" }
+      { "user": "Bee", "text": "Can't wait to try it!", "imageUrl": "", "vote": "notFake" }
     ]
   },
   {
     "id": 35,
-    "title": "Thailand Introduces Smart Traffic Lights",
-    "shortDetail": "AI-driven traffic management system deployed.",
-    "fullDetail": "Bangkok city officials deployed AI-driven smart traffic lights at major intersections to improve traffic flow and reduce congestion. The system uses real-time data from cameras, sensors, and GPS-enabled vehicles to adjust signal timing dynamically. Officials reported that initial trials showed a significant reduction in average waiting times and smoother traffic movement. The project also aims to reduce vehicle emissions by minimizing idle times. Citizens praised the new technology, and traffic experts noted its potential for expansion to other Thai cities. The initiative is part of a broader smart city strategy to integrate AI solutions into urban infrastructure.",
-    "reporter": "Natasha Li",
-    "dateTime": "2025-08-17T08:30:00",
+    "title": "Viral Elephant Selfie Goes Wrong",
+    "shortDetail": "Tourist takes selfie with elephant, gets trampled.",
+    "fullDetail": "A viral video showed a tourist attempting to take a selfie with an elephant at a sanctuary, resulting in the animal accidentally stepping on the person’s foot. Authorities confirmed no serious injuries occurred, but they warned visitors about safety around large animals. The sanctuary emphasized ethical animal interaction and responsible tourism. Social media users debated safe practices, while tourism experts advised following guidelines when engaging with wildlife to prevent accidents.",
+    "reporter": "Mark Lim",
+    "dateTime": "2025-07-17T16:20:00",
     "status": "notFake",
-    "image": "/src/assets/image35.jpg",
-    "votes": { "fake": 1, "notFake": 13 },
+    "image": "/images/image35.jpg",
+    "votes": { "fake": 1, "notFake": 15 },
     "comments": [
-      { "user": "Kwan", "text": "Really makes commuting easier!", "imageUrl": "", "vote": "notFake" }
+      { "user": "Nok", "text": "Better be careful!", "imageUrl": "", "vote": "notFake" }
     ]
   }
 ]
