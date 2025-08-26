@@ -18,7 +18,7 @@
 
 ## GitHub Repository
 
-🔗 Repository link: _to be added_
+🔗 Repository link: https://github.com/chartchai-class/project-01-the-anti-fake-news-system-devspark
 
 ---
 
