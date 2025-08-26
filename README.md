@@ -24,7 +24,7 @@
 
 ## Deployment & Demo
 
-- **Live Website:** [project-01-the-anti-fake-news-system-devspark-inle-its7rvmfo.vercel.app](project-01-the-anti-fake-news-system-devspark-inle-its7rvmfo.vercel.app)  
+- **Live Website:** [https://project-01-the-anti-fake-news-system-devspark-inle-its7rvmfo.vercel.app/](https://project-01-the-anti-fake-news-system-devspark-inle-its7rvmfo.vercel.app/)  
 - **Demo Video:** [https://your-demo-video-link.com](https://your-demo-video-link.com)
 
 ---
