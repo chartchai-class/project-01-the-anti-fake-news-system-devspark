@@ -34,34 +34,39 @@
     </div>
 
     <!-- News list -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 gap-4">
       <div 
         v-for="news in paginatedNews" 
         :key="news.id" 
         @click="goToDetail(news.id)"
-        class="border p-4 rounded-lg shadow hover:shadow-xl cursor-pointer transition bg-white"
+        class="border p-4 rounded-lg shadow hover:shadow-xl cursor-pointer transition bg-white flex gap-4"
       >
-        <img :src="news.image" class="w-full h-48 object-cover mb-2 rounded"/>
-        <h2 class="text-xl font-semibold mb-1">{{ news.title }}</h2>
-        <p class="text-sm text-gray-600 mb-2">{{ news.shortDetail }}</p>
+        <!-- Fixed size image on the left -->
+        <img :src="news.image" class="w-32 h-32 object-cover rounded" />
 
-        <!-- Status -->
-        <div class="flex flex-col text-xs text-gray-500 gap-1 mb-2">
-          <span>
-            <strong>Status:</strong>
-            <span :class="news.status === 'fake' ? 'text-red-600 font-semibold' : 'text-green-600 font-semibold'">
-              {{ news.status }}
+        <!-- Content on the right -->
+        <div class="flex-1 flex flex-col">
+          <h2 class="text-xl font-semibold mb-1">{{ news.title }}</h2>
+          <p class="text-sm text-gray-600 mb-2">{{ news.shortDetail }}</p>
+
+          <!-- Status -->
+          <div class="flex flex-col text-xs text-gray-500 gap-1 mb-2">
+            <span>
+              <strong>Status:</strong>
+              <span :class="news.status === 'fake' ? 'text-red-600 font-semibold' : 'text-green-600 font-semibold'">
+                {{ news.status }}
+              </span>
             </span>
-          </span>
-          <span><strong>Reporter:</strong> {{ news.reporter }}</span>
-          <span><strong>Date:</strong> {{ formatDate(news.dateTime) }}</span>
-        </div>
+            <span><strong>Reporter:</strong> {{ news.reporter }}</span>
+            <span><strong>Date:</strong> {{ formatDate(news.dateTime) }}</span>
+          </div>
 
-        <!-- Vote totals -->
-        <div class="flex gap-4 text-sm font-semibold">
-          <strong>Number of votes:</strong>&nbsp;
-          <p class="text-red-600">Fake: {{ news.votes.fake }}</p>&nbsp;
-          <p class="text-green-600">Not Fake: {{ news.votes.notFake }}</p>
+          <!-- Vote totals -->
+          <div class="flex gap-4 text-sm font-semibold">
+            <strong>Number of votes:</strong>&nbsp;
+            <p class="text-red-600">Fake: {{ news.votes.fake }}</p>&nbsp;
+            <p class="text-green-600">Not Fake: {{ news.votes.notFake }}</p>
+          </div>
         </div>
       </div>
     </div>

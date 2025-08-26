@@ -1,11 +1,15 @@
 <template>
-  <div class="p-4 max-w-3xl mx-auto">
-    <h1 class="text-2xl font-bold">{{ news.title }}</h1>
+  <div class="main-container">
+    <!-- News Title -->
+    <h1 class="text-2xl font-bold mb-4">{{ news.title }}</h1>
 
-    <img :src="news.image" class="my-4 w-full max-w-md rounded object-cover" />
+    <!-- News Image -->
+    <img :src="news.image" class="news-image" />
 
+    <!-- News Details -->
     <p class="my-2">{{ news.fullDetail }}</p>
 
+    <!-- Status & Reporter -->
     <p>Status: <strong>{{ news.status }}</strong></p>
     <p>Reported by {{ news.reporter }} on {{ formatDate(news.dateTime) }}</p>
 
@@ -18,7 +22,7 @@
     <!-- Vote Form -->
     <VoteForm :newsId="news.id" />
 
-    <!-- Comments -->
+    <!-- Comments Section -->
     <div class="mt-6">
       <h2 class="text-xl font-semibold mb-2">Comments</h2>
       <div
@@ -32,8 +36,7 @@
         <img
           v-if="c.imageUrl"
           :src="c.imageUrl"
-          class="mt-1 rounded border"
-          style="max-width: 300px; max-height: 200px;"
+          class="comment-image"
           @error="c.imageUrl = '/src/assets/placeholder.png'"
         />
       </div>
@@ -53,3 +56,35 @@ function formatDate(dateStr) {
   return d.toLocaleString()
 }
 </script>
+
+<style scoped>
+.main-container {
+  max-width: 750px; 
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.news-image {
+  width: 100%;       
+  max-width: 430px;  
+  height: auto;     
+  border-radius: 0.5rem;
+  object-fit: cover;
+  display: block;
+  margin: 1rem auto; 
+  transition: transform 0.3s ease;
+}
+
+.news-image:hover {
+  transform: scale(1.03); 
+}
+
+.comment-image {
+  max-width: 280px;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+</style>

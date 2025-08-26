@@ -1,10 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* -----------------------
+   Root Variables
+------------------------ */
 :root {
   /* Colors */
   --brand-dark: #0f172a;
@@ -31,9 +33,7 @@
 /* -----------------------
    Global Reset
 ------------------------ */
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -77,13 +77,8 @@ a {
   transition: color var(--transition-fast);
 }
 
-a:hover {
-  color: var(--accent-hover);
-}
-
-a:active {
-  color: var(--accent-active);
-}
+a:hover { color: var(--accent-hover); }
+a:active { color: var(--accent-active); }
 
 /* -----------------------
    Buttons
@@ -203,6 +198,62 @@ textarea:focus {
 
 .rounded-lg {
   border-radius: var(--radius);
+}
+
+/* -----------------------
+   News Image Styling
+------------------------ */
+.news-image {
+  display: block;
+  width: 100%;
+  max-width: 800px;   /* limit max size */
+  height: auto;       /* maintain aspect ratio */
+  margin: 1.5rem auto;
+  border-radius: var(--radius);
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.news-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* -----------------------
+   Container Padding
+------------------------ */
+.main-container {
+  padding: 2rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* -----------------------
+   Comments Image Styling
+------------------------ */
+.comment-image {
+  max-width: 300px;
+  max-height: 200px;
+  display: block;
+  margin-top: 0.5rem;
+  border-radius: var(--radius);
+  object-fit: cover;
+  border: 1px solid #e2e8f0;
+}
+
+/* -----------------------
+   Responsive Tweaks
+------------------------ */
+@media (max-width: 768px) {
+  .news-image {
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+
+  .main-container {
+    padding: 1rem;
+  }
 }
 
 /* -----------------------
