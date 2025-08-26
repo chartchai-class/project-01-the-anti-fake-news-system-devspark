@@ -278,5 +278,75 @@
     "comments": [
       { "user": "Sara", "text": "Exciting for students!", "imageUrl": "", "vote": "notFake" }
     ]
+  },
+   {
+    "id": 21,
+    "title": "Meteor Shower Visible in Chiang Mai Tonight",
+    "shortDetail": "Skywatchers report a spectacular meteor shower.",
+    "fullDetail": "Astronomers confirm peak visibility of meteor shower tonight across northern Thailand.",
+    "reporter": "Nicha Boon",
+    "dateTime": "2025-08-26T21:00:00",
+    "status": "notFake",
+    "image": "/src/assets/image21.jpg",
+    "votes": { "fake": 0, "notFake": 12 },
+    "comments": [
+      { "user": "Mint", "text": "Can’t wait to watch!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Bangkok Subway to Introduce Night Service",
+    "shortDetail": "MRT to operate until midnight starting next month.",
+    "fullDetail": "Transport authority announced extended subway hours to reduce traffic congestion.",
+    "reporter": "Pawinee S.",
+    "dateTime": "2025-08-25T10:30:00",
+    "status": "notFake",
+    "image": "/src/assets/image22.jpg",
+    "votes": { "fake": 1, "notFake": 18 },
+    "comments": [
+      { "user": "Jo", "text": "Finally! So convenient.", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Giant Meteor Lands in Phuket",
+    "shortDetail": "Viral post claims huge meteor crashed into beach.",
+    "fullDetail": "No official reports confirmed the meteor. Scientists dismiss the post as hoax.",
+    "reporter": "Ken Wong",
+    "dateTime": "2025-08-24T15:20:00",
+    "status": "fake",
+    "image": "/src/assets/image23.jpg",
+    "votes": { "fake": 21, "notFake": 0 },
+    "comments": [
+      { "user": "Tae", "text": "Obvious fake news.", "imageUrl": "", "vote": "fake" }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Thailand to Host International eSports Tournament",
+    "shortDetail": "Bangkok selected as venue for global gaming event.",
+    "fullDetail": "Confirmed by the Ministry of Sports, tournament to attract gamers worldwide next year.",
+    "reporter": "Arisa Tan",
+    "dateTime": "2025-08-23T13:00:00",
+    "status": "notFake",
+    "image": "/src/assets/image24.jpg",
+    "votes": { "fake": 0, "notFake": 15 },
+    "comments": [
+      { "user": "Nok", "text": "Excited for this event!", "imageUrl": "", "vote": "notFake" }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Bangkok Zoo Introduces Robot Animals",
+    "shortDetail": "New robotic wildlife exhibit unveiled.",
+    "fullDetail": "Zoo claims interactive robot animals for educational purposes. Visitors impressed.",
+    "reporter": "Somchai R.",
+    "dateTime": "2025-08-22T11:10:00",
+    "status": "notFake",
+    "image": "/src/assets/image25.jpg",
+    "votes": { "fake": 2, "notFake": 14 },
+    "comments": [
+      { "user": "Kwan", "text": "Cool experience for kids.", "imageUrl": "", "vote": "notFake" }
+    ]
   }
 ]
