@@ -15,39 +15,31 @@ export const useNewsStore = defineStore('news', {
       if (!news.comments) news.comments = []
       news.comments.push(comment)
 
-      // If currently viewing this news, update selectedNews reference
       if (this.selectedNews?.id === newsId) {
         this.selectedNews = { ...news }
       }
     },
-    vote(newsId, type) {
-      const news = this.newsList.find(n => n.id === newsId)
-      if (!news.votes) news.votes = { fake: 0, notFake: 0 }
-      if (type === 'fake') news.votes.fake++
-      else news.votes.notFake++
+vote(newsId, type) {
+  const news = this.newsList.find(n => n.id === newsId)
+  if (!news) return
 
-      // Update selectedNews if it matches
-      if (this.selectedNews?.id === newsId) {
-        this.selectedNews = { ...news }
-      }
-    },
-    // เพิ่มฟังก์ชัน Add News
-    addNews(newNews) {
-      const nextId = (this.newsList.at(-1)?.id || 0) + 1
-      const news = {
-        id: nextId,
-        title: newNews.title,
-        shortDetail: newNews.shortDetail,
-        fullDetail: newNews.fullDetail,
-        status: newNews.status,
-        reporter: newNews.reporter,
-        dateTime: new Date().toISOString(),
-        image: newNews.image || '',
-        votes: { fake: 0, notFake: 0 },
-        comments: []
-      }
-      this.newsList.push(news)
-      this.selectedNews = news
-    }
+  if (!news.votes) news.votes = { fake: 0, notFake: 0 }
+
+  if (type === 'fake') news.votes.fake++
+  else news.votes.notFake++
+
+  if (news.votes.fake > news.votes.notFake) {
+    news.status = 'fake'
+  } else if (news.votes.notFake > news.votes.fake) {
+    news.status = 'notFake'
+  } else {
+    news.status = 'undecided'
+  }
+
+  if (this.selectedNews?.id === newsId) {
+    this.selectedNews = { ...news }
+  }
+},
+
   }
 })
