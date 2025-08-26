@@ -1,5 +1,5 @@
 <template>
-  <div class="p-6 max-w-3xl mx-auto">
+  <div v-if="store" class="p-6 max-w-3xl mx-auto">
     <h1 class="text-2xl font-bold mb-6 text-center">➕ Add New News</h1>
 
     <form @submit.prevent="submitNews" class="space-y-4 bg-white p-6 rounded-lg shadow-md">
@@ -47,7 +47,6 @@
         />
       </div>
 
-
       <!-- Image URL -->
       <div>
         <label class="block text-sm font-medium mb-1">Image URL</label>
@@ -58,7 +57,8 @@
           class="w-full border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
       </div>
-<br>
+
+      <br>
       <!-- Buttons -->
       <div class="flex gap-2 justify-end">
         <button type="button" @click="cancel" 
@@ -70,6 +70,10 @@
       <!-- Error -->
       <div v-if="error" class="text-red-600 text-sm font-medium">{{ error }}</div>
     </form>
+  </div>
+
+  <div v-else class="text-center mt-10 text-gray-500">
+    Loading...
   </div>
 </template>
 

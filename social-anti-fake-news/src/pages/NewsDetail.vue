@@ -1,5 +1,5 @@
 <template>
-  <div class="main-container">
+  <div v-if="news" class="main-container">
     <!-- News Title -->
     <h1 class="text-2xl font-bold mb-4">{{ news.title }}</h1>
 
@@ -42,18 +42,31 @@
       </div>
     </div>
   </div>
+
+  <div v-else class="text-center mt-10 text-gray-500">
+    News not found or loading...
+  </div>
 </template>
 
 <script setup>
 import { useNewsStore } from '../store/newsStore'
+import { useRoute } from 'vue-router'
 import VoteForm from '../components/VoteForm.vue'
 
 const store = useNewsStore()
-const news = store.selectedNews
+const route = useRoute()
+
+// Try to get selectedNews from store
+let news = store.selectedNews
+
+// If not set, try to load it by ID from route
+if (!news && route.params.id) {
+  news = store.newsList.find(n => n.id === Number(route.params.id))
+}
 
 function formatDate(dateStr) {
-  const d = new Date(dateStr)
-  return d.toLocaleString()
+  if (!dateStr) return ''
+  return new Date(dateStr).toLocaleString()
 }
 </script>
 
@@ -88,5 +101,4 @@ function formatDate(dateStr) {
   border-radius: 0.5rem;
   margin-top: 0.5rem;
 }
-
 </style>
