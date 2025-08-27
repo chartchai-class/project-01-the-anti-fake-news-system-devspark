@@ -220,18 +220,12 @@ textarea:focus {
   box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
 
-/* -----------------------
-   Container Padding
------------------------- */
 .main-container {
   padding: 2rem;
   max-width: 1024px;
   margin: 0 auto;
 }
 
-/* -----------------------
-   Comments Image Styling
------------------------- */
 .comment-image {
   max-width: 300px;
   max-height: 200px;
@@ -242,9 +236,6 @@ textarea:focus {
   border: 1px solid #e2e8f0;
 }
 
-/* -----------------------
-   Responsive Tweaks
------------------------- */
 @media (max-width: 768px) {
   .news-image {
     max-width: 100%;
@@ -291,5 +282,6 @@ textarea:focus {
 img {
   width: 259px;
   height: 194px;
-  object-fit: cover; /* keeps aspect ratio while filling box */
+  object-fit: cover;
 }
+

@@ -86,6 +86,11 @@
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useNewsStore } from '../store/newsStore'
+import NProgress from 'nprogress'
+import 'nprogress/nprogress.css'
+
+// Configure NProgress
+NProgress.configure({ showSpinner: false, speed: 500, minimum: 0.1 })
 
 const store = useNewsStore()
 const router = useRouter()
@@ -100,18 +105,54 @@ const filterOptions = [
 const currentPage = ref(1)
 const itemsPerPage = ref(5)
 
-const filteredNews = computed(() => filter.value==='all' ? store.newsList : store.newsList.filter(n => n.status===filter.value))
+const filteredNews = computed(() =>
+  filter.value === 'all'
+    ? store.newsList
+    : store.newsList.filter(n => n.status === filter.value)
+)
 const totalPages = computed(() => Math.ceil(filteredNews.value.length / itemsPerPage.value))
 const paginatedNews = computed(() => {
-  const start = (currentPage.value-1)*itemsPerPage.value
+  const start = (currentPage.value - 1) * itemsPerPage.value
   return filteredNews.value.slice(start, start + itemsPerPage.value)
 })
 
-function setFilter(val) { filter.value = val; currentPage.value = 1 }
-function prevPage() { if(currentPage.value>1) currentPage.value-- }
-function nextPage() { if(currentPage.value<totalPages.value) currentPage.value++ }
-function goToDetail(id) { store.setSelectedNews(id); router.push(`/news/${id}`) }
-function formatDate(dateStr) { return new Date(dateStr).toLocaleString() }
+// ----- Functions -----
 
-function goToAddNews() { router.push('/addNews') }
+function setFilter(val) {
+  NProgress.start()
+  filter.value = val
+  currentPage.value = 1
+  setTimeout(() => NProgress.done(), 200) // optional small delay
+}
+
+function goToDetail(id) {
+  NProgress.start()
+  store.setSelectedNews(id)
+  router.push(`/news/${id}`).finally(() => NProgress.done())
+}
+
+function prevPage() {
+  if (currentPage.value > 1) {
+    NProgress.start()
+    currentPage.value--
+    setTimeout(() => NProgress.done(), 200)
+  }
+}
+
+function nextPage() {
+  if (currentPage.value < totalPages.value) {
+    NProgress.start()
+    currentPage.value++
+    setTimeout(() => NProgress.done(), 200)
+  }
+}
+
+function goToAddNews() {
+  NProgress.start()
+  router.push('/addNews').finally(() => NProgress.done())
+}
+
+function formatDate(dateStr) {
+  return new Date(dateStr).toLocaleString()
+}
 </script>
