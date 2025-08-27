@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+# Social Anti-Fake News System  
+### SE331 — Component-Based Software Development  
+**Term Project I**
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+---
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Team Information
+
+**Team Name:** DevSpark
+
+|  Name                         | Student ID     |  Section   |
+|-------------------------------|----------------|------------|
+| Thanachai Naksomboon          | 662115020      | 702        |
+| Wanikkasit Nopthiraitthikun   | 652115043      | 702        |
+| Siwakorn Kankaewpab           | 662115048      | 702        |
+
+---
+
+## GitHub Repository
+
+🔗 Repository link: https://github.com/chartchai-class/project-01-the-anti-fake-news-system-devspark
+
+---
+
+## Deployment & Demo
+
+- **Live Website:** [https://project-01-the-anti-fake-news-system-devspark-inle-h9v5bve1x.vercel.app](https://project-01-the-anti-fake-news-system-devspark-inle-h9v5bve1x.vercel.app)  
+- **Demo Video:** [https://youtu.be/egXh9ta4yOg](https://youtu.be/egXh9ta4yOg)
+
+---
+
