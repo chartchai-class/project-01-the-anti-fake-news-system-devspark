@@ -20,15 +20,7 @@
     </p>
 
     <!-- Vote Form -->
-    <VoteForm :newsId="news.id" @vote="onVote" />
-
-    <!-- Add Comment Button Example -->
-    <button 
-      class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 shadow"
-      @click="addComment"
-    >
-      Add Comment
-    </button>
+    <VoteForm :newsId="news.id" />
 
     <!-- Comments Section -->
     <div class="mt-6">
@@ -52,79 +44,29 @@
   </div>
 
   <div v-else class="text-center mt-10 text-gray-500">
-    Loading news...
+    News not found or loading...
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
 import { useNewsStore } from '../store/newsStore'
 import { useRoute } from 'vue-router'
 import VoteForm from '../components/VoteForm.vue'
-import NProgress from 'nprogress'
-import 'nprogress/nprogress.css'
-
-// Configure NProgress
-NProgress.configure({ showSpinner: false, speed: 500, minimum: 0.1 })
 
 const store = useNewsStore()
 const route = useRoute()
-const news = ref(null)
 
-// Load news on page mount
-async function loadNews() {
-  NProgress.start()
+// Try to get selectedNews from store
+let news = store.selectedNews
 
-  // Try to get selectedNews from store
-  if (store.selectedNews) {
-    news.value = store.selectedNews
-  } 
-  // Otherwise, find it from the list by ID
-  else if (route.params.id) {
-    const id = Number(route.params.id)
-    news.value = store.newsList.find(n => n.id === id) || null
-  }
-
-  setTimeout(() => NProgress.done(), 200) // smooth loading effect
+// If not set, try to load it by ID from route
+if (!news && route.params.id) {
+  news = store.newsList.find(n => n.id === Number(route.params.id))
 }
 
-onMounted(() => {
-  loadNews()
-})
-
-// Format datetime
 function formatDate(dateStr) {
   if (!dateStr) return ''
   return new Date(dateStr).toLocaleString()
-}
-
-// Example: Add comment function
-function addComment() {
-  NProgress.start()
-
-  // Simulate async store/API action
-  setTimeout(() => {
-    news.value.comments.push({
-      user: 'Me',
-      text: 'This is a new comment!',
-      vote: null,
-      imageUrl: null
-    })
-    NProgress.done()
-  }, 300)
-}
-
-// Example: Handle VoteForm event
-function onVote(voteData) {
-  NProgress.start()
-
-  // Simulate vote submission
-  setTimeout(() => {
-    // update news votes
-    if (voteData.vote === 'fake') news.value.votes.fake++
-    else news.value.votes.notFake++
-    NProgress.done()
-  }, 300)
 }
 </script>
 
